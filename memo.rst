@@ -32,11 +32,11 @@ entry point is static.py
 ↓
 register the StaticContentHandler (static.py L123) class as application
 
-class StaticContentHandler(webapp.RequestHandler):
-  def output_content(self, content, serve=True):
-  ...
-  def get(self, path):
-  ...
+   class StaticContentHandler(webapp.RequestHandler):
+     def output_content(self, content, serve=True):
+       # ...
+     def get(self, path):
+       # ...
 
 
 
