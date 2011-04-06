@@ -1,7 +1,7 @@
 import datetime
 import logging
 import os
-from google.appengine.api.labs import taskqueue
+from google.appengine.api import taskqueue
 from google.appengine.ext import deferred
 
 import config
