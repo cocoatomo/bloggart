@@ -65,3 +65,8 @@ config.py
 setting file.
 this file contains documentation for users.
 
+miscellaneous
+#############
+
+to apply changes in config.py, I need to regenerate pages in some way,
+such as post new article.
