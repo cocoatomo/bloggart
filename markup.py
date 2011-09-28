@@ -39,6 +39,15 @@ from docutils.core import publish_parts
 
 CUT_SEPARATOR_REGEX = r'<!--.*cut.*-->'
 
+def arrange_header_level(html_body):
+  return html_body.replace('<h4', '<h6') \
+      .replace('</h4>', '</h6>') \
+      .replace('<h3', '<h5') \
+      .replace('</h3>', '</h5>') \
+      .replace('<h2', '<h4') \
+      .replace('</h2>', '</h4>') \
+      .replace('<h1', '<h3') \
+      .replace('</h1>', '</h3>')
 
 def render_rst(content):
   warning_stream = StringIO()
@@ -52,7 +61,9 @@ def render_rst(content):
   rst_warnings = warning_stream.getvalue()
   if rst_warnings:
       logging.warn(rst_warnings)
-  return parts['html_body']
+  return '\n'.join(["<!-- parts['html_body'] -->",
+                    arrange_header_level(parts['html_body']),
+                    "<!-- parts['html_body'] -->"])
 
 
 def render_markdown(content):
