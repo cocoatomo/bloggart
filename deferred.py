@@ -20,11 +20,6 @@
 See deferred.py for full documentation.
 """
 
-import os
-os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
-
-# from google.appengine.dist import use_library
-# use_library('django', '0.96')
 
 
 
