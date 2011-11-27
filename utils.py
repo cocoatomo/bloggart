@@ -2,7 +2,6 @@ import os
 import re
 import unicodedata
 
-from google.appengine.ext import webapp
 from google.appengine.ext.webapp.template import _swap_settings
 
 import django.conf
