@@ -552,6 +552,8 @@ ol.commentlist {
 	content: "."; 
 }
 
+/* for docutils markup */
+
 tt.docutils.literal {
     background-color: #e0e0e0;
 }
