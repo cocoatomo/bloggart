@@ -51,6 +51,7 @@ p  { font-size: 130%; }
 ul, ol {
 	margin: 10px 20px;
 	padding: 0 20px;
+        font-size: 130%;
 }
 ul { list-style: disc; }
 ol { list-style: decimal; }
