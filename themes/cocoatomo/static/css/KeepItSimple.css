@@ -6,7 +6,17 @@
 	Author URI : http://www.styleshout.com/       
 	Last Date Modified : September 29, 2008	
  ------------------------------------------------ */
- 
+
+/*
+ * License: http://creativecommons.org/licenses/by/2.5/
+ * http://www.styleshout.com/templates/preview/KeepItSimple11/index.html
+ */
+
+/*
+ * color sample:
+ * http://hogehoge.tk/webdev/color/
+ */
+
 /* ----------------------------------------------
    HTML ELEMENTS
 ------------------------------------------------- */ 
@@ -14,7 +24,7 @@ body {
 	font: 12px/165% 'Lucida Grande', Verdana, Helvetica, sans-serif;
 	color: #666666; 	
 	margin: 0; padding: 0 0 50px 0; 
-	background: #F6F5F5 url(../images/bg.gif) repeat-x; 
+	background: #F6F5F5 url(../images/bg.gif) repeat-x;
 	text-align: center;
 }
 /* Links */
@@ -120,10 +130,13 @@ th, td {
   	border-style: solid;
 }
 th {
-	color: #7BA857;
-	background: #EFFAE6;
+	color: #191970; /* MidnightBlue */
+	background: #F0F8FF; /* AliceBlue */
 	padding: .8em 1em;	
-  	border-color: #DFF4D5 #D3EFC3 #A7DF8A #D3EFC3;	
+  	border-top-color: #B0C4DE; /* LightSteelBlue */
+        border-right-color: #B0C4DE; /* LightSteelBlue */
+        border-bottom-color: #191970; /* MidnightBlue */
+        border-left-color: #B0C4DE; /* LightSteelBlue */
 }
 td {
 	border-color: #EFEFEF;	
@@ -145,7 +158,7 @@ form p {
 }
 label {
 	font-weight: bold;
-	color: #7BA857;
+	color: #191970; /* MidnightBlue */
 }
 input, select, textarea {
 	margin: 5px 0;
@@ -154,11 +167,11 @@ input, select, textarea {
 	border-width: 1px;
 	border-style: solid;
   	border-color: #d4d4d4 #ebebeb #ebebeb #d4d4d4; 	
-	font: 11px 'Lucida Grande', Verdana, Helvetica, sans-serif;
+	font: 14px 'Inconsolata', 'TakaoGothic', 'Lucida Grande', Verdana, Helvetica, sans-serif;
 }
 input:focus, select:focus, textarea:focus {
-	color: #7BA857;
-	background: #EFFAE6;
+	color: #191970; /* MidnightBlue */
+	background: #F0F8FF; /* AliceBlue */
 }
 #name, #email, #message, #website {
 	width: 380px;
@@ -210,7 +223,7 @@ input.button {
 	margin: 0; padding: 0 5px 0 0;
 	font: normal 75px Georgia, 'Times New Roman', Times, serif;
 	letter-spacing: -6px;
-	color: #93b876;
+	color: #4682B4; /* SteelBlue */
 	text-decoration: none;
 		
 	/* change the values of top and left to adjust the position of the logo*/
@@ -226,7 +239,7 @@ input.button {
 	line-height: 1.6em;
 	font-style: italic;
 	letter-spacing: -.5px;
-	color: #7ba45b;
+	color: #4682B4; /* SteelBlue */
 	width: 400px;
 	
 	/* change the values of top and left to adjust the position */
