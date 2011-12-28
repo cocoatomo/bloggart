@@ -25,6 +25,7 @@ class PostForm(djangoforms.ModelForm):
     choices=[(k, v[0]) for k, v in markup.MARKUP_MAP.iteritems()])
   tags = forms.CharField(widget=forms.Textarea(attrs={'rows': 5, 'cols': 20}))
   draft = forms.BooleanField(required=False)
+  # add "static path" field
   class Meta:
     model = models.BlogPost
     fields = [ 'title', 'body', 'tags' ]
@@ -82,7 +83,7 @@ class PostHandler(BaseHandler):
         instance=post,
         initial={
           'draft': post and not post.path,
-          'body_markup': post and post.body_markup or config.default_markup,
+          'body_markup': post.body_markup if post else config.default_markup,
         }))
 
   @with_post
@@ -138,6 +139,7 @@ class RegenerateHandler(BaseHandler):
 
 
 class PageForm(djangoforms.ModelForm):
+  # here determine path for pages
   path = forms.RegexField(
     widget=forms.TextInput(attrs={'id':'path'}), 
     regex='(/[a-zA-Z0-9/]+)')

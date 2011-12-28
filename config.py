@@ -30,6 +30,10 @@ post_path_format = '/%(year)d/%(month)02d/%(slug)s'
 # A nested list of sidebar menus, for convenience. If this isn't versatile
 # enough, you can edit themes/default/base.html instead.
 sidebars = [
+    ('Profile',
+     ['<a href="http://twitter.com/cocoatomo">@cocoatomo</a>',
+      '<a href="http://d.hatena.ne.jp/cocoatomo">hatena diary (my old blog)</a>'
+      '<a href="">iddy</a>']),
   ('Blogroll', [
     '<a href="http://blog.notdot.net/">Nick Johnsonz</a>',
     '<a href="http://www.billkatz.com/">Bill Katz</a>',
@@ -70,8 +74,9 @@ google_sitemap_ping = True
 # here.
 google_site_verification = None
 
-# Default markup language for entry bodies (defaults to html).
-default_markup = 'html'
+# Default markup language for entry bodies.
+# one of 'txt', 'textile', 'html', 'markdown' and 'rst'
+default_markup = 'rst'
 
 # Syntax highlighting style for RestructuredText and Markdown,
 # one of 'manni', 'perldoc', 'borland', 'colorful', 'default', 'murphy',
