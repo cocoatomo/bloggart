@@ -30,10 +30,11 @@ post_path_format = '/%(year)d/%(month)02d/%(slug)s'
 # A nested list of sidebar menus, for convenience. If this isn't versatile
 # enough, you can edit themes/default/base.html instead.
 sidebars = [
-    ('Profile',
-     ['<a href="http://twitter.com/cocoatomo">@cocoatomo</a>',
-      '<a href="http://d.hatena.ne.jp/cocoatomo">hatena diary (my old blog)</a>'
-      '<a href="">iddy</a>']),
+    ('Profile', [
+            '<a href="http://twitter.com/cocoatomo">@cocoatomo</a>',
+            '<a href="http://d.hatena.ne.jp/cocoatomo">hatena diary (my old blog)</a>',
+            '<a href="http://iddy.jp/profile/cocoatomo/">iddy</a>',
+            ]),
   ('Blogroll', [
     '<a href="http://blog.notdot.net/">Nick Johnsonz</a>',
     '<a href="http://www.billkatz.com/">Bill Katz</a>',
