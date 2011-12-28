@@ -30,10 +30,10 @@ body {
 /* Links */
 a:link, a:visited { 
 	text-decoration: none;
-	color: #AE855C;	
+	color: #191970; /* LightSteelBlue */
 }
 a:hover {
-	border-bottom: 1px dotted #AE855C;	
+	border-bottom: 1px dotted #191970; /* LightSteelBlue */
 }
 a.more-link {
 	padding-bottom: 2px;
