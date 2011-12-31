@@ -72,7 +72,7 @@ ol { list-style: decimal; }
 
 dt {
   font-weight: bold;
-  color: #7BA857;
+  color: #191970; /* LightSteelBlue */
 }
 dd {
   padding-left: 25px; 
