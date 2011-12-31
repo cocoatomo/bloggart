@@ -11,7 +11,5 @@ def fix_sys_path():
     global ultimate_sys_path
     if ultimate_sys_path is None:
         ultimate_sys_path = list(sys.path)
-        logging.info('ulti is None')
     else:
         sys.path[:] = ultimate_sys_path
-        logging.info('ulti is not None')
