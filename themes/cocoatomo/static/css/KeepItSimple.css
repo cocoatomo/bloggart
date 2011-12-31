@@ -374,7 +374,7 @@ input.button {
 	background-image: none;	
 	background-color: transparent;
 	border: none;
-	color: #7BA857;
+	color: #191970; /* LightSteelBlue */
 	padding-left: 0;	
 }
 .sidemenu ul li a span {
