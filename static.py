@@ -1,5 +1,5 @@
 from google.appengine.dist import use_library
-use_library('django', '1.2')
+use_library('django', '0.96')
 
 import datetime
 import hashlib

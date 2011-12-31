@@ -1,5 +1,6 @@
 import os
 import sys
+import logging
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'lib'))
 
@@ -10,5 +11,7 @@ def fix_sys_path():
     global ultimate_sys_path
     if ultimate_sys_path is None:
         ultimate_sys_path = list(sys.path)
+        logging.info('ulti is None')
     else:
         sys.path[:] = ultimate_sys_path
+        logging.info('ulti is not None')

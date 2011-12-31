@@ -29,6 +29,8 @@ import utils
 import fix_path
 fix_path.fix_sys_path()
 
+import sys
+logging.debug(sys.path)
 # Import markup module from lib/
 import markdown
 import markdown_processor
