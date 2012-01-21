@@ -35,14 +35,6 @@ sidebars = [
             '<a href="http://d.hatena.ne.jp/cocoatomo">hatena diary (my old blog)</a>',
             '<a href="http://iddy.jp/profile/cocoatomo/">iddy</a>',
             ]),
-  ('Blogroll', [
-    '<a href="http://blog.notdot.net/">Nick Johnsonz</a>',
-    '<a href="http://www.billkatz.com/">Bill Katz</a>',
-    '<a href="http://www.codinghorror.com/blog/">Coding Horror</a>',
-    '<a href="http://craphound.com/">Craphound</a>',
-    '<a href="http://www.neopythonic.blogspot.com/">Neopythonic</a>',
-    '<a href="http://www.schneier.com/blog/">Schneier on Security</a>',
-  ]),
 ]
 
 # Number of entries per page in indexes.
