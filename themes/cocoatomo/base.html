@@ -25,22 +25,25 @@
   {% endif %}
 
   {% block head %}{% endblock %}
-<!-- Google Analytics -->
-<script type="text/javascript">
+  <!-- MathJax -->
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- /MathJax -->
+  <!-- Google Analytics -->
+  <script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-6577093-6']);
-  _gaq.push(['_setDomainName', '.elliptium.net']);
-  _gaq.push(['_trackPageview']);
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-6577093-6']);
+    _gaq.push(['_setDomainName', '.elliptium.net']);
+    _gaq.push(['_trackPageview']);
 
-  (function() {
+    (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+    })();
 
-</script>
-<!-- Google Analytics -->
+  </script>
+  <!-- /Google Analytics -->
 </head>
 <body>
 	<div id="header-wrap"><div id="header" class="container_16">						
