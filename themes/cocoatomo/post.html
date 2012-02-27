@@ -17,10 +17,10 @@
     <a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="cocoatomo">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
   </p>
   {% if prev %}
-    <a id="prev" href="{{config.url_prefix}}{{prev.path}}">Previous Post</a>
+    <a id="prev" href="{{config.url_prefix}}{{prev.path}}">&lt;Previous Post</a>
   {% endif %}
   {% if next %}
-    <a id="next" href="{{config.url_prefix}}{{next.path}}">Next Post</a>
+    <a id="next" href="{{config.url_prefix}}{{next.path}}">Next Post&gt;</a>
   {% endif %}
   
   {% if config.disqus_forum %}
