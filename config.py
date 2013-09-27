@@ -4,6 +4,9 @@ blog_name = 'Elliptium'
 # Your name (used for copyright info)
 author_name = 'cocoatomo'
 
+# copyright years
+copyright_years = '2011-2013'
+
 # (Optional) slogan
 slogan = 'powered by my impulse'
 
@@ -35,6 +38,11 @@ sidebars = [
             '<a href="http://d.hatena.ne.jp/cocoatomo">hatena diary (my old blog)</a>',
             '<a href="http://iddy.jp/profile/cocoatomo/">iddy</a>',
             ]),
+    ('Licenses', [
+            '''<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.1/jp/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.1/jp/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.1/jp/deed.en_US">Creative Commons Attribution-ShareAlike 2.1 Japan License</a>.''',
+            '''This blog engine is derived from Arachnid's work <a href="https://github.com/arachnid/bloggart">bloggart</a>.''',
+            '''This blog is originally designed by <a href="http://www.styleshout.com/">styleshout</a>.'''
+            ])
 ]
 
 # Number of entries per page in indexes.
